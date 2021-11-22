@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coraline Jones 3D
+* source:	https://sketchfab.com/3d-models/coraline-jones-3d-cceb652ad6034ff4926e15359822c582
+* author:	Javier Contreras (https://sketchfab.com/Javier.ConRod)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coraline Jones 3D" (https://sketchfab.com/3d-models/coraline-jones-3d-cceb652ad6034ff4926e15359822c582) by Javier Contreras (https://sketchfab.com/Javier.ConRod) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
