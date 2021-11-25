@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "y": "^0.3.2"
+  },
+  "name": "webxr-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierconrod/webxr-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javierconrod/webxr-3/issues"
+  },
+  "homepage": "https://github.com/javierconrod/webxr-3#readme",
+  "description": ""
+}
