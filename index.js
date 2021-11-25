@@ -16,14 +16,6 @@ document.body.appendChild( renderer.domElement );
 
 document.body.appendChild(VRButton.createButton(renderer));
 
-function onWindowResize() {
-
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-
-  renderer.setSize( window.innerWidth, window.innerHeight );
-}
-
 window.addEventListener(  'resize', onWindowResize );
 
 
@@ -58,12 +50,24 @@ camera.position.z = 5;
 camera.position.y = 6;
 //camera.rotation.x = -0.3;
 
-function animate() {
-	//requestAnimationFrame( animate );
-	//renderer.render( scene, camera );
-  renderer.setAnimationLoop(()=>{
-    renderer.render( scene, camera)
+function onWindowResize() {
 
-  });
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+
+  renderer.setSize( window.innerWidth, window.innerHeight );
+}
+
+function animate() {
+  //cube.rotation.x += 0.01;
+  //cube.rotation.y += 0.01;
+	// requestAnimationFrame( animate );
+	// renderer.render( scene, camera );
+
+  renderer.setAnimationLoop( render );
+}
+
+function render() {
+  renderer.render(scene, camera);
 }
 animate();
